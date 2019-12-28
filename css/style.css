@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+    background-color: #87509c;
+    height: 90vh;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.text {  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 80px;
+}
+
+.btn {
+    background-color: #eb7d4b;
+    text-transform: uppercase;
+    border: none ;
+    font-size: 15px;
+    padding: 25px 100px;
+    margin: 40px;
+    cursor: pointer; 
+    transition: all 0.4s;
+    color: white;
+}
+
+.header-inner {
+    background-color: #87509c;
+    top: 0;
+    padding: 10px;
+}
+
+.header-inner ul {
+    margin: 0;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    list-style: none;
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+.header-inner ul li {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.header-inner ul li a {
+    text-decoration: none;
+    cursor: pointer; 
+    color: white;
+}
+
+.header-inner ul li a:hover {
+    color: white;
+    background-color: #643a79;
+}
+
+section {
+    background-color: #e7f1f8;
+    height: 120vh;
+}
+
+.about-team {
+    color: #696969;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+hr {
+    color: #c8d9e5;
+    width: 80px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.photos {
+    margin: 10px; 
+}
+
+.photos ul {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.dot {
+    background-color: #696969;
+    border-radius: 50%;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+}
+
+#person { 
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
+.kate, .olivia, .ashley, .anne {
+    flex-basis: 25%;
+    
+}
