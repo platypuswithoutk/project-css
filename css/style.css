@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #87509c;
-    height: 95vh;
+    height: 100vh;
 }
 
 h1 {
@@ -19,8 +19,6 @@ h1 {
 }
 
 .text {  
-    justify-content: center;
-    align-items: center;
     text-align: center;
     margin: 80px;
 }
@@ -34,11 +32,11 @@ h1 {
     margin: 40px;
     cursor: pointer; 
     color: white;
+    border-bottom: 5px solid #cf6f42;
 }
 
 .header-inner {
     background-color: #87509c;
-    top: 0;
     padding: 10px;
 }
 
@@ -47,7 +45,6 @@ h1 {
     padding-right: 200px;
     padding-top: 20px;
     padding-bottom: 50px;
-    list-style: none;
     text-align: right;
     text-transform: uppercase;
     margin-top: 20px;
@@ -56,7 +53,6 @@ h1 {
 .header-inner ul li {
     display: inline-block;
     margin: 10px;
-   
 }
 
 .header-inner ul li a {
@@ -68,13 +64,19 @@ h1 {
 .header-inner ul li a:hover {
     color: white;
     background-color: #643a79;
-    border-radius: 10%;
-    
+    border-radius: 10%;   
 }
 
 nav {
     background-color: #e7f1f8;
     height: 110vh;
+}
+
+i {
+ background-color: #c8d9e5; 
+ border-radius: 50%;
+ padding: 12px;
+ color: white;
 }
 
 .about-team, .section1-text {
@@ -102,8 +104,7 @@ hr {
     border-radius: 50%;
     display: inline-block;
     height: 150px;
-    width: 150px;
-    
+    width: 150px; 
 }
 
 #people, .section1-circle { 
@@ -131,7 +132,7 @@ h4 {
 
 #skills {
     background-color: white;
-    height: 95vh;
+    height: 90vh;
 }
 
 .section1-circle span {
@@ -282,13 +283,13 @@ h4 {
     cursor: pointer; 
     margin-left: auto;
     margin-right: auto;    
+    border-bottom: 5px solid #4396b4;
 }
 
 footer {
     background-color: #213161;
     height: 15vh;
     border-top: 1px solid #337891;
-
 }
 
 .links {
@@ -311,4 +312,9 @@ footer {
     padding: 20px;
     padding-top: 20px;
     font-size: 15px;
+}
+
+.links ul li a:hover {
+    color: #55c2e9;
+    background-color: #213161;
 }
