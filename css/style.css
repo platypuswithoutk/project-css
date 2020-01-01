@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #87509c;
-    height: 100vh;
+    height: 600px;
 }
 
 h1 {
@@ -69,7 +69,7 @@ h1 {
 
 nav {
     background-color: #e7f1f8;
-    height: 110vh;
+    height: 700px;
 }
 
 i {
@@ -132,7 +132,7 @@ h4 {
 
 #skills {
     background-color: white;
-    height: 90vh;
+    height: 600px;
 }
 
 .section1-circle span {
@@ -178,7 +178,7 @@ h4 {
 
 #about {
     background-color: #d74680;
-    height: 120vh;
+    height: 750px;
 }
 
 .section2-text {
@@ -234,7 +234,7 @@ h4 {
 
 #contact {
     background-color: #3c5499;
-    height: 120vh;
+    height: 750px;
 }
 
 #contact form {
@@ -288,7 +288,7 @@ h4 {
 
 footer {
     background-color: #213161;
-    height: 15vh;
+    height: 100px;
     border-top: 1px solid #337891;
 }
 
